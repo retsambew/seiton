@@ -24,7 +24,7 @@ export default function Home() {
 					size="lg"
 					asChild
 				>
-					<Link href="/sign-up">TRY SEITON FOR FREE</Link>
+					<Link href="/sign-in">TRY SEITON FOR FREE</Link>
 				</Button>
 			</div>
 			<Image
