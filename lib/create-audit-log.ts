@@ -20,7 +20,7 @@ export const createAuditLog = async (props: Props) => {
 		}
 
 		const { entityId, entityType, entityTitle, action } = props;
-
+		console.log(user);
 		await db.auditLog.create({
 			data: {
 				orgId,
@@ -30,7 +30,8 @@ export const createAuditLog = async (props: Props) => {
 				action,
 				userId: user.id,
 				userImage: user?.imageUrl,
-				userName: user?.firstName + " " + user?.lastName,
+				userName:
+					user?.username || user?.firstName + " " + user?.lastName,
 			},
 		});
 	} catch (error) {
