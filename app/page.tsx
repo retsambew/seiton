@@ -15,9 +15,9 @@ export default function Home() {
 				<p className="mt-4 text-[#6E727B] leading-6 tracking-[0.05rem]">
 					Dive into seamless task management, sprint success, and
 					real-time tracking within exclusive organizations – all on
-					the house! Elevate your productivity in style with Seiton's
-					exhilarating blend of simplicity and power. Ready for the
-					excitement?
+					the house! Elevate your productivity in style with
+					Seiton&apos;s exhilarating blend of simplicity and power.
+					Ready for the excitement?
 				</p>
 				<Button
 					className="mt-7 bg-white bg-gradient-to-r from-[#509393]/80 to-[#0D76B2]/80 text-white"
